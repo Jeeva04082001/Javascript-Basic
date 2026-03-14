@@ -1,0 +1,78 @@
+<!-- //------------08-07-2024-------------------
+
+// What is an Eent and Event handlers?
+
+/*
+
+An event in javascript is an action or occurence that happens
+within a web page, such as a user's interaction(clicking a button)
+or a page loading.
+
+
+
+An event handler in javascript is a function that responds
+to an event when it occurs. It listens for specific events and
+executes code to perform actions based on those events,
+creating interactive and dynamic web applications.
+
+*/ -->
+
+
+
+<!-- <h1 id="h1">Hello World</h1>
+<button onclick="change()">change</button>
+<script>
+
+    var hi=document.getElementById('h1')
+    console.log(hi.textContent)
+    
+
+    function change()
+    {
+        hi.textContent='Bye World'
+    }
+    
+</script> -->
+
+
+
+<input id="num1" value=""/><br/><br/>
+<input id="num2" value=""/><br/><br/>
+<button id="tot" onclick="add()">Add</button>
+<p id="result">Result</p>
+
+<script>
+
+  var box1=document.getElementById('num1')
+  var box2=document.getElementById('num2')
+  var result = document.getElementById('result')
+//   console.log(box1.value);
+//   console.log(box2.value);
+  
+  
+
+
+
+
+  function add()
+  {
+
+    var box1value = Number(box1.value)
+    var box2value = Number(box2.value)
+
+    var total = box1value+box2value
+    console.log(total)
+    result.textContent=total
+    
+     
+  }
+
+</script>
+
+
+
+
+
+
+
+

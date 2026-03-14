@@ -1,0 +1,143 @@
+/* <!-- 7:53 to 9:04 --> */
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+body {
+    min-height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    width: 100vw;
+    height: 48px;
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid #fff;
+    z-index: 2;
+    background-color: #000;
+    color: #fff;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    padding-top: 48px;
+}
+
+.view1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: lightgray;
+    color: #000;
+}
+
+/* parent is class .view1 and div is child */
+.view1 > div { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+    color: #fff;
+    margin: 10px;
+}
+
+.view2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* display: none; */
+    display: flex;
+    background-color: darkblue;
+    color: #fff;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+/* ------------------========== */
+
+/* div + p{
+    color: #000;
+} */
+
+
+/* div open panni close aanathu next yenga p tag irukko anga inthe style apply aagum */
+
+/* ------------------============= */
+
+
+
+.purple {
+    background-color: purple;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.darkblue{
+    background-color: darkblue;
+}
+
+.black {
+    background-color: black;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+
+.pink{
+    background-color: pink;
+}
+
+.orange{
+    background-color: rgb(14, 219, 14);
+}
+
+.height100{
+    height: 100px;
+}
+
+
+
+
